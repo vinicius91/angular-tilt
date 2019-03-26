@@ -20,11 +20,11 @@ export class AppModule {}
 And add the directive to you components
 
 ```html
-<div class="container" tilt></div>
+<div class="container" aTilt></div>
 ```
 
 ```html
-<div class="container" tilt [tiltSettings]="tiltSettings"></div>
+<div class="container" aTilt [tiltSettings]="tiltSettings"></div>
 ```
 
 ## Install

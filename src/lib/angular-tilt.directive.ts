@@ -3,7 +3,7 @@ import { Directive, ElementRef, Input } from "@angular/core";
 import { VanillaTilt } from "./angular-tilt";
 
 @Directive({
-  selector: "[atAngularTilt]"
+  selector: "[aTilt]"
 })
 export class AngularTiltDirective {
   tilt: any;
