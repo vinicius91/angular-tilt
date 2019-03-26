@@ -1,5 +1,7 @@
 # AngularTilt
 
+[![npm version](https://badge.fury.io/js/angular-tilt.svg)](https://badge.fury.io/js/angular-tilt)
+
 A 3D tilt implementation for Angular based on the [vanilla-tilt.js](https://github.com/micku7zu/vanilla-tilt.js) and [Tilt.js](https://github.com/gijsroge/tilt.js).
 
 ## Usage
