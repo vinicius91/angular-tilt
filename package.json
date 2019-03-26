@@ -1,0 +1,15 @@
+{
+  "name": "angular-tilt",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "author": {
+    "name": "Vinicius Rodrigues",
+    "email": "viniro3201@gmail.com",
+    "url": "https://github.com/vinicius91"
+  },
+  "license": "MIT",
+  "description": "An Angular Directive for tilt effect"
+}
