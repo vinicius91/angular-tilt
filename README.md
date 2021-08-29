@@ -23,8 +23,31 @@ And add the directive to you components
 <div class="container" aTilt></div>
 ```
 
+To customize the tile settings, pass tiltSettings configurations as object
 ```html
 <div class="container" aTilt [tiltSettings]="tiltSettings"></div>
+```
+
+```
+tiltSettings = {
+    reverse:                false,
+    max:                    15,
+    perspective:            1000,
+    scale:                  1,
+    speed:                  300,
+    transition:             true,
+    axis:                   null,
+    reset:                  true,
+    glare:                  false,
+    "max-glare":            1,
+    "glare-prerender":      false,
+    "mouse-event-element":  null,
+    gyroscope:              true,
+    gyroscopeMaxAngleX:     45,
+    gyroscopeMinAngleY:     -45,
+    gyroscopeMaxAngleY:     45,
+};
+
 ```
 
 ## Install
